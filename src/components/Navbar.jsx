@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
+import Home from '../pages/home';
 function Navbar() {
   return (
     <>
@@ -9,7 +10,7 @@ function Navbar() {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Link</a></li>
+     <Link to="/"><li><a>Home</a></li></Link>
       <li><a>Link</a></li>
       <li><a>Link</a></li>
       <li><a>Link</a></li>

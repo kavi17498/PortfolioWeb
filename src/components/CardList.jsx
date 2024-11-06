@@ -4,7 +4,11 @@ import Card from './Card'
 
 function CardList() {
   return (
-    <div className='flex flex-wrap justify-between gap-2 mt-4'>
+  <>
+
+  <hr className="mt-10"  />
+  <h1 className="justify-self-center text-3xl font-bold mt-5">My Services</h1>
+    <div className='flex flex-wrap justify-center gap-8 mt-4'>
                 {data.map((item)=>(
                     <Card 
                         key={item.id}
@@ -16,6 +20,7 @@ function CardList() {
                 ))}
 
     </div>
+    </>
   )
 }
 
