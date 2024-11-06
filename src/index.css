@@ -1,0 +1,9 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add default margin to the body */
+body {
+  @apply m-10; /* Applies margin of 1rem (16px) to the body */
+}
